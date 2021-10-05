@@ -3,10 +3,7 @@ title: "Vignette"
 author: "Allison Warhus"
 date: "10/5/2021"
 output: 
-  github_document:
-    toc: true
-    toc_float : true
----
+  github_document
 ---
 
 # Introduction
@@ -280,7 +277,7 @@ Here is my render code. I used this to render my document without pressing the k
 ```{r}
 rmarkdown::render("C:/Users/ejwar/Desktop/Project1/Vignette.Rmd", 
   output_format = "github_document", 
-  output_dir ="C:/Users/ejwar/Desktop/Project1",
+  output_dir ="C:/Users/ejwar/Desktop/Project1/README",
   output_options = list(html_preview = FALSE))
 ```
 
