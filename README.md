@@ -391,6 +391,6 @@ pressing the knit button.
 ``` r
 rmarkdown::render("C:/Users/ejwar/Desktop/Project1/Vignettev2.Rmd", 
   output_format = "github_document", 
-  output_options = list(html_preview = FALSE, toc=TRUE, toc_float=TRUE),
+  output_options = list(toc = TRUE, toc_depth = '2', toc_float= TRUE),
   output_file= "README.md")
 ```
