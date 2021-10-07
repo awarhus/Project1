@@ -1,0 +1,15 @@
+---
+title: "Render"
+author: "Allison Warhus"
+date: "10/7/2021"
+output: github_document
+---
+
+Here is my render code. I used this to render my document without pressing the knit button.
+```{r eval=FALSE}
+rmarkdown::render("C:/Users/ejwar/Desktop/Project1/Vignettev2.Rmd", 
+  output_format = "github_document", 
+  output_options = list(toc = TRUE, toc_depth = '2', toc_float= TRUE),
+  output_file= "README.md")
+```
+
