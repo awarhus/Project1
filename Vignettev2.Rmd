@@ -278,7 +278,7 @@ Here is my render code. I used this to render my document without pressing the k
 ```{r eval=FALSE}
 rmarkdown::render("C:/Users/ejwar/Desktop/Project1/Vignettev2.Rmd", 
   output_format = "github_document", 
-  output_options = list(html_preview = FALSE),
+  output_options = list(html_preview = FALSE, toc=TRUE, toc_float=TRUE),
   output_file= "README.md")
 ```
 

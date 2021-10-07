@@ -3,6 +3,14 @@ Vignette
 Allison Warhus
 10/5/2021
 
+-   [Introduction](#introduction)
+-   [Required Packages](#required-packages)
+-   [Functions to Interact with the
+    API](#functions-to-interact-with-the-api)
+    -   [Here I define functions to interact with the COVID19
+        API.](#here-i-define-functions-to-interact-with-the-covid19-api)
+-   [Data Exploration](#data-exploration)
+
 # Introduction
 
 This is a vignette to demonstrate how to retrieve data from a the
@@ -383,6 +391,6 @@ pressing the knit button.
 ``` r
 rmarkdown::render("C:/Users/ejwar/Desktop/Project1/Vignettev2.Rmd", 
   output_format = "github_document", 
-  output_options = list(html_preview = FALSE),
+  output_options = list(html_preview = FALSE, toc=TRUE, toc_float=TRUE),
   output_file= "README.md")
 ```
